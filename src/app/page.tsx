@@ -18,18 +18,20 @@ export default function Home() {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <Image
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3uvSuDAm4janztLTjGf43Rs2tyBZ0ow46Q&s"
+              src="/images/logo.jpeg"
               alt="Noor Fatima Logo"
+              height={50}
+              width={50}
               className="w-12 max-h-12 rounded-full transition-transform transform hover:scale-110 duration-300"
             />
             <span className="ml-3 text-2xl font-semibold tracking-wide">Noor Fatima</span>
           </a>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center space-x-6">
-          <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='http://localhost:3000'>Home</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='http://localhost:3000/about' >About us</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hovescale-110r:" href='http://localhost:3000/contact'>Contact us</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='  http://localhost:3000/privacypolicy'>Privacy policy</a>
-      <a className='mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110' href=' http://localhost:3000/projects'> Projects</a>
+          <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='/'>Home</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='/about' >About us</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hovescale-110r:" href='/contact'>Contact us</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='  /privacypolicy'>Privacy policy</a>
+      <a className='mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110' href='/projects'> Projects</a>
              
           </nav>
           <button className="inline-flex items-center bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 transition-all duration-300 ease-in-out rounded-full text-base font-medium mt-4 md:mt-0">
@@ -59,6 +61,8 @@ export default function Home() {
         className="object-cover object-center rounded-full shadow-2xl w-80 h-80 lg:w-96 lg:h-96 transition-transform duration-500 hover:scale-105" 
         alt="hero" 
         src="/images/noor.jpeg" 
+        height={200}
+        width={200}
       />
     </div>
 
@@ -102,7 +106,9 @@ export default function Home() {
       {/* Card 1 */}
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden bg-yellow-600 shadow-lg">
-          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNGhRHK5LL1nx0ZojiHTgAxiNPn74P7GLciA&s" alt="blog" />
+          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/blog1.jpeg" alt="blog"
+          height={150}
+          width={150} />
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Currency Converter</h1>
             <p className="leading-relaxed mb-3">This is a CLI-based currency converter.</p>
@@ -132,7 +138,9 @@ export default function Home() {
       {/* Card 2 */}
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden bg-yellow-600 shadow-lg">
-          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwjidddNs-gHISU_T6Gac9HZf9_TV9fL1Eog&s" alt="blog" />
+          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/blog2.png" alt='card'
+          height={150}
+          width={150} />
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Countdown Timer</h1>
             <p className="leading-relaxed mb-3">This is a CLI-based countdown timer.</p>
@@ -162,7 +170,9 @@ export default function Home() {
       {/* Card 3 */}
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden bg-yellow-600 shadow-lg">
-          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8Cj2SFphO_ilzJRv8J8h6ilCMTF2RYDuZw&s" alt="blog" />
+          <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/blog3.jpeg" alt="blog"
+          height={150}
+          width={150} />
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Adventure Game</h1>
             <p className="leading-relaxed mb-3">This is a CLI-based adventure game.</p>
@@ -252,7 +262,9 @@ export default function Home() {
     </div>
      <a href='https://github.com/NoorFatima7654'>
     <button className=" flex mx-auto py-3 px-5 rounded-lg items-center hover:bg-pink-400 focus:outline-none bg-red-500">
-       <Image className='w-10 h-18' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW1Zb8qAC9MjY8ATGb7KRAX2n7Te8VJCi_8HI2lycowx0S7qIlymywEFYaLA&s" alt=""/>
+       <Image className='w-10 h-18' src="/images/gallery.jpeg" alt="gallery"
+       height={100}
+       width={100}/>
         <span className="ml-4 flex items-start flex-col leading-none">
           <span className="text-xs text-white mb-1"> Github</span>
           <span className="title-font text-black font-bold">Noor Fatima</span>
@@ -272,61 +284,79 @@ export default function Home() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GqG8R5nBt41wv4cmB8ArhJEJeaaeLp6fkg&s"/>
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/todoapp.jpeg"
+          height={150}
+          width={150}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
 
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Calculator</h1>
-            <p className="leading-relaxed">This is a cli base calculator.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">ToDo App</h1>
+            <p className="leading-relaxed">This is a task Management app.</p>
+            <a href="http://todoapp-by-noor.vercel.app " className="bg-blue-500 text-white" > View Project</a>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6PPjOR77DSfpwaaO_Ibe-rnCc0uO5l1ZPqw&s"/>
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/htmlcssweb.jpeg"
+          height={150}
+          width={150}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
      
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Number Guessing Game</h1>
-            <p className="leading-relaxed">This is a cli base number guessing game.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">HTML, CSS Website </h1>
+            <p className="leading-relaxed">This is a html,css website.</p>
+            <a href="http://html-css-web-u6vj.vercel.app" className="bg-blue-500 text-white "> View Project</a>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/06/getty_currency-exchange_062321.jpeg.jpg"/>
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/resume.png"
+          height={150}
+          width={150}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
           
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Currency Converter</h1>
-            <p className="leading-relaxed">This is a cli base currency converter.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Resume Builder</h1>
+            <p className="leading-relaxed">This is Resume Builder.</p>
+            <a href="http://resume-builderby-noor.vercel.app" className="bg-blue-500 text-white"> View Project</a>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RSMkaeFlWmJ5GGMFg7HmG0zF0XUwDDS_Hg&s"/>          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/idcard.png"
+          height={150}
+          width={150}/>          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
           
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Student  Management System</h1>
-            <p className="leading-relaxed">This is a cli base Student  Management System .</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">GIAIC Student Id card</h1>
+            <p className="leading-relaxed">This is my student id card .</p>
+            <a href="http://giac-id-card-71a9.vercel.app" className="bg-blue-500 text-white"> View Card</a>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Gw8VU6pnXuLbxBoCuP4xSnG7jkw_zIhAuA&s"/>
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/countdown.jpeg"
+
+          height={150}
+          width={150}/>
 
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
 
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Count Down Timer </h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">CountDown Timer </h1>
+            <p className="leading-relaxed">This is a CountDown Timer</p>
+            <a href="http://timer-llyw.vercel.app" target="_blank" className="bg-blue-500  text-white"> View Project</a>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVtTGTUxooDz58yd7qjzHN-sTl31y7kPI4bQ&s"/>
+          <Image alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/images/atm.jpeg"
+          height={150}
+          width={150}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
 
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Atm Machine</h1>
-            <p className="leading-relaxed">This is a cli base Atm machine.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Facebook clone</h1>
+            <p className="leading-relaxed">This is a face clone page.</p>
           </div>
         </div>
       </div>
@@ -421,7 +451,9 @@ export default function Home() {
     <div className="flex flex-wrap -m-2">
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Pashmeen Zia</h2>
             <p className="text-gray-500">UI Designer</p>
@@ -430,7 +462,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRhbXit2OhSwmwYaW4fATX1omYqtXzNM2g2A&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamboy.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Abdullah Kashif</h2>
             <p className="text-gray-500">Developer</p>
@@ -439,7 +473,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Hafsa Kamali</h2>
             <p className="text-gray-500">Developer</p>
@@ -448,7 +484,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRhbXit2OhSwmwYaW4fATX1omYqtXzNM2g2A&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamboy.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Uzair Khijli</h2>
             <p className="text-gray-500">DevOps</p>
@@ -457,7 +495,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Iqra Ikram</h2>
             <p className="text-gray-500">Software Engineer</p>
@@ -466,7 +506,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          < Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          < Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Rija Zeeshan</h2>
             <p className="text-gray-500">DevOps</p>
@@ -475,7 +517,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Areeba Khijli</h2>
             <p className="text-gray-500">Software Engineer</p>
@@ -484,7 +528,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          width={50}
+          height={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Ruba Haroon</h2>
             <p className="text-gray-500">DevOps</p>
@@ -493,7 +539,9 @@ export default function Home() {
       </div>
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ-qHfCrm9svO3WvHfmIdxyPnucFcmTSuPA&s"/>
+          <Image alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/images/teamgirl.jpeg"
+          height={50}
+          width={50}/>
           <div className="flex-grow">
             <h2 className="text-yellow-600 title-font font-medium">Fiza Sagar</h2>
             <p className="text-gray-500">DevOps</p>
@@ -532,8 +580,10 @@ export default function Home() {
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
     <Image
-       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3uvSuDAm4janztLTjGf43Rs2tyBZ0ow46Q&s"
+       src="/images/logo.jpeg"
        alt='NF logo'
+       height={150}
+       width={150}
        className='w-10 max-h-10 rounded-full'/>
        
       <span className="ml-3 text-white text-xl">Noor Fatima</span>
